@@ -4,8 +4,11 @@
 <div class="row">
   <div class="col-sm-8 offset-sm-2">
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">Pytorch Flask Docker App</h1>
-      <p class="lead">This project is aimed to help Pytorch machine learning developers to quickly build a Flask
+      <h1 class="display-4">EMLO Assignment 4 Pytorch Flask Docker App</h1>
+      <p class="lead">
+        Name: Divyam Malay Shah
+        <br>
+        This project is aimed to help Pytorch machine learning developers to quickly build a Flask
         web app
         in a Docker container ready to be deployed. <br> <a
           href="https://github.com/imadtoubal/Pytorch-Flask-Docker-App"> View on GitHub</a></p>
@@ -17,9 +20,10 @@
     <form action="/infer" method="POST" enctype="multipart/form-data">
       <div class="input-group">
         <div class="custom-file">
-          <input type="file" name="file" accept=".jpg, .jpeg, .png" class="custom-file-input" id="inputGroupFile"
-            aria-describedby="inputGroupFileAddon04">
-          <label class="custom-file-label" for="inputGroupFile">Choose file</label>
+
+          <input type="file" name="files[]" accept=".jpg, .jpeg, .png" class="custom-file-input" id="inputGroupFile"
+            aria-describedby="inputGroupFileAddon04" multiple="true">
+          <label class="custom-file-label" for="inputGroupFile">Choose files</label>
         </div>
         <div class="input-group-append">
           <input type="submit" value="Upload"  class="btn btn-outline-secondary" type="button"

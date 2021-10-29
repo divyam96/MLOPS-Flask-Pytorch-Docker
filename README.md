@@ -1,3 +1,7 @@
+Modified for EMLO Assignment 3 by:
+Divyam Malay Shah (email: divyam096@gmail.com) 
+
+
 # Flask/Pytorch/Docker starter app
 
 This project is aimed to help machine learning developers to quickly build and deploy a Flask web app that take advantage of their machine learning  ready PyTorch model. The documentation explains how to get up and running with either virtualenv or Docker.

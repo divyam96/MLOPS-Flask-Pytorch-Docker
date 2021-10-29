@@ -1,4 +1,4 @@
-FROM python:3
+FROM pytorch/pytorch:1.9.0-cuda10.2-cudnn7-runtime
 
 MAINTAINER Imad Toubal
 
@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "app.py"]
+ENTRYPOINT ["python", "app.py"]
